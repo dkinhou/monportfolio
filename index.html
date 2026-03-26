@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de KINHOU Deo-Gracias, etudiant informatique au CESI Lyon. Projets en reseau, developpement web, C++, Java et administration systeme.">
+    <meta property="og:title" content="Portfolio | KINHOU Deo-Gracias">
+    <meta property="og:description" content="Etudiant informatique au CESI Lyon. Decouvrez mes projets academiques, mon CV et mes competences techniques.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="photo_profil.jpg">
+    <title>Portfolio | KINHOU Déo-Gracias Étudiant CESI Lyon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">PORTFOLIO</a>
+            <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-menu">Menu</button>
+            <ul id="main-menu" class="nav-links">
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#cv-section">Mon CV</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#softskills">Soft Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="CV_alternance_Déo-Gracias-KINHOU.pdf" download class="btn-cv-nav">Télécharger CV</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero container">
+        <div class="hero-content">
+            <img src="photo_profil.jpg" alt="Photo de profil" class="profile-pic">
+            <h1>Étudiant en <span class="highlight">Informatique</span></h1>
+            <p class="subtitle">2eme annee au <strong>CESI Lyon</strong>. Avec un interet pousse pour les reseaux, systemes et la securite informatique.</p>
+            <div class="hero-btns">
+                <a href="#projets" class="btn-primary">Découvrir mes projets</a>
+                <a href="#cv-section" class="btn-secondary">Voir mon CV</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="projets" class="projects container">
+        <h2 class="section-title">Projets Académiques</h2>
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="card-icon">💻</div>
+                <h3>Jeu de la Vie</h3>
+                <p>Modélisation en <strong>C++</strong> avec Programmation Orientée Objet (POO). Gestion d'automates cellulaires.</p>
+                <div class="tags"><span>C++</span><span>POO</span><span>Git</span></div>
+                <a href="https://github.com/dkinhou/jeu2lavie" target="_blank" rel="noopener noreferrer" class="btn-text">Code source GitHub →</a>
+            </article>
+
+            <article class="project-card featured">
+                <div class="card-icon">🌐</div>
+                <h3>Projet Funkytown</h3>
+                <p>Administration réseau d'une ville : VLANs, routage et sécurité. Projet validé avec la certification <strong>CCNA 1</strong>.</p>
+                <div class="tags"><span>Cisco</span><span>Réseau</span><span>CCNA</span></div>
+                <span class="badge">Expertise Réseau</span>
+            </article>
+
+            <article class="project-card">
+                <div class="card-icon">📄</div>
+                <h3>Plateforme Stages</h3>
+                <p>Site web de recherche de stage et d'alternance. Architecture complète incluant du php en back-end.</p>
+                <div class="tags"><span>HTML/CSS</span><span>PHP</span><span>Java</span><span>Web</span></div>
+            </article>
+        </div>
+    </section>
+
+    <section id="cv-section" class="cv-view container">
+        <h2 class="section-title">Curriculum Vitae</h2>
+        <div class="cv-wrapper">
+            <embed src="CV_alternance_Déo-Gracias-KINHOU.pdf" type="application/pdf" width="100%" height="600px" class="cv-embed">
+            <div class="mobile-cv-fallback">
+                <p>Visualisation indisponible sur mobile.</p>
+                <a href="CV_alternance_Déo-Gracias-KINHOU.pdf" target="_blank" rel="noopener noreferrer" class="btn-secondary">Ouvrir le PDF</a>
+            </div>
+        </div>
+        <div class="cv-action">
+            <a href="CV_alternance_Déo-Gracias-KINHOU.pdf" download class="btn-primary">Télécharger le CV complet</a>
+        </div>
+    </section>
+
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Stack Technique</h2>
+            <div id="skills-list" class="skills-list"></div>
+        </div>
+    </section>
+
+    <section id="softskills" class="softskills container">
+        <h2 class="section-title">Soft Skills</h2>
+        <div class="softskills-grid">
+            <article class="softskill-card">
+                <h3>Travail en equipe</h3>
+                <p>Collaboration active sur des projets avec repartition des taches et entraide continue.</p>
+            </article>
+            <article class="softskill-card">
+                <h3>Communication</h3>
+                <p>Capacite a expliquer clairement des idees techniques a l'oral comme a l'ecrit.</p>
+            </article>
+            <article class="softskill-card">
+                <h3>Adaptabilite</h3>
+                <p>Prise en main rapide de nouveaux outils, methodes et environnements de travail.</p>
+            </article>
+            <article class="softskill-card">
+                <h3>Autonomie</h3>
+                <p>Organisation personnelle et progression reguliere sans supervision constante.</p>
+            </article>
+            <article class="softskill-card">
+                <h3>Gestion du temps</h3>
+                <p>Priorisation des objectifs et respect des delais dans un cadre academique exigeant.</p>
+            </article>
+            <article class="softskill-card">
+                <h3>Resolution de problemes</h3>
+                <p>Approche analytique pour identifier une cause, tester des pistes et corriger durablement.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact container">
+        <h2 class="section-title">Me Contacter</h2>
+        <p class="contact-intro">Je suis disponible pour echanger sur une alternance, un stage ou un projet.</p>
+        <div class="contact-grid">
+            <article class="contact-card">
+                <h3>Email</h3>
+                <p>Pour toute opportunite, ecris-moi directement.</p>
+                <a href="mailto:deograciaskinhou200@gmail.com" class="contact-link">deograciaskinhou200@gmail.com</a>
+            </article>
+            <article class="contact-card">
+                <h3>LinkedIn</h3>
+                <p>Retrouve mon parcours et mon reseau professionnel.</p>
+                <a href="https://www.linkedin.com/in/deograciaskinhou" target="_blank" rel="noopener noreferrer" class="contact-link">Voir mon LinkedIn</a>
+            </article>
+            <article class="contact-card">
+                <h3>GitHub</h3>
+                <p>Consulte mes projets, mon code et mes contributions.</p>
+                <a href="https://github.com/dkinhou" target="_blank" rel="noopener noreferrer" class="contact-link">Voir mon GitHub</a>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 - Étudiant CESI Lyon | Portfolio Réalisé en HTML/CSS/JS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
